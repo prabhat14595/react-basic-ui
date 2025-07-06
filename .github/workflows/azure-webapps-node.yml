@@ -8,7 +8,7 @@ on:
 env:
   AZURE_WEBAPP_NAME: your-app-name            # 👉 Replace with your actual Azure Web App name
   AZURE_WEBAPP_PACKAGE_PATH: './my-app'       # 👉 Adjusted to reflect your folder structure
-  NODE_VERSION: '20.x'
+  NODE_VERSION: '18.x'
 
 permissions:
   contents: read
